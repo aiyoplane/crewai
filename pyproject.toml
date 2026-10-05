@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "aiyoplane-crewai"
-version = "1.0.1"
+version = "1.0.2"
 description = "AEAP Composition Boundary Adapter for CrewAI. Thin wrapper that attaches the Runtime Decision Point to CrewAI tool invocations."
 readme = "README.md"
 license = {text = "Apache-2.0"}

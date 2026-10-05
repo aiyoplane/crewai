@@ -1,6 +1,11 @@
 # Changelog
 
-## 1.0.1 (2026-10-05)
+## 1.0.2 (2026-10-05)
+
+- Fix `__version__` constant drift. `src/aiyoplane_crewai/__init__.py` had `__version__ = "1.0.0"` while `pyproject.toml` said `1.0.1`. Programmatic version checks via `aiyoplane_crewai.__version__` were returning the stale value. No behavior change.
+- v1.0.1 yanked.
+
+## 1.0.1 (2026-10-05) — YANKED
 
 - Dependency metadata correction. No behavior change.
 - `requires-python` bumped from `>=3.9` to `>=3.10` to match CrewAI's own minimum (every CrewAI version from 0.10 onwards requires Python 3.10+).
